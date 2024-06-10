@@ -51,7 +51,7 @@ h2 {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 
 article {
@@ -59,7 +59,7 @@ article {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 /* Slide stílusának meghatározása */
 .slide {
