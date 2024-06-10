@@ -118,3 +118,48 @@ article {
     font-size: 14px;
     
 }
+
+.info {
+    background-color: rgb(45, 138, 99);
+    border: 2px solid rgb(46, 44, 44);
+    border-radius: 10px;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+div > label {
+    font-size: 140%;
+    width: 100px;
+}
+
+div > input {
+    font-size: 120%;
+    width: 700px;
+}
+
+div > textarea {
+    font-size: 120%;
+    width: 700px;
+    height: 100px; /* Adjunk hozzá egy alapértelmezett magasságot */
+    resize: vertical; /* Csak függőlegesen méretezhető */
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer>.container-fluid {
+    position: absolute;
+    bottom: 0;
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
