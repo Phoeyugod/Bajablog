@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bejegyzések - Baja Blogja</title>
+    <title>Baja Blogja</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,20 +19,26 @@
         </nav>
     </header>
     <main>
-        <section id="posts">
-            <h2>Legújabb Bejegyzések</h2>
-            <article>
-                <h3>Bajai Halászlé</h3>
-                <p>A Bajai Halászlé egy híres és finom étel, amit mindenkinek meg kell kóstolnia, ha Baján jár.</p>
-            </article>
-            <article>
-                <h3>Duna-parti séták</h3>
-                <p>A Duna-part tökéletes hely a sétákra és a kikapcsolódásra, különösen nyári estéken.</p>
-            </article>
+        <section id="slider">
+            <div class="slider-content">
+                <div class="slide active">
+                    <h2>Bajai Halászlé</h2>
+                    <p>A Bajai Halászlé egy híres és finom étel, amit mindenkinek meg kell kóstolnia, ha Baján jár. A receptje generációkon át öröklődött, és minden családnak megvan a saját titkos összetevője, ami még különlegesebbé teszi ezt az ételt. Az évente megrendezett Halászlé Fesztivál mindig nagy látogatottságnak örvend.</p>
+                </div>
+                <div class="slide">
+                    <h2>Duna-parti séták</h2>
+                    <p>A Duna-part tökéletes hely a sétákra és a kikapcsolódásra, különösen nyári estéken. A folyó mentén számos gyönyörű hely található, ahol piknikezhetünk, vagy csak élvezhetjük a természet nyugalmát. A kerékpárutak is remek lehetőséget kínálnak a sportolásra és a felfedezésre.</p>
+                </div>
+                <div class="slide">
+                    <h2>Bajai Múzeum</h2>
+                    <p>A Bajai Múzeum gazdag történelmi gyűjteménnyel várja a látogatókat, bemutatva a város múltját és kulturális örökségét. Az állandó kiállítások mellett időszakos tárlatok is színesítik a programot, így mindig érdemes visszatérni.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Baja Blogja. Minden jog fenntartva.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
