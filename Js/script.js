@@ -1,11 +1,24 @@
-document.addEventListener("DOMContentLoaded", function() {
-    let slides = document.querySelectorAll(".slide");
-    let currentSlide = 0;
-    let slideInterval = setInterval(nextSlide, 5000);
+let currentSlide = 0;
+showSlides(currentSlide);
 
-    function nextSlide() {
-        slides[currentSlide].classList.remove("active");
-        currentSlide = (currentSlide + 1) % slides.length;
-        slides[currentSlide].classList.add("active");
+function changeSlide(n) {
+    showSlides(currentSlide += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+
+    if (n >= slides.length) {
+        currentSlide = 0;
     }
-});
+    
+    if (n < 0) {
+        currentSlide = slides.length - 1;
+    }
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[currentSlide].style.display = "block";
+}

@@ -11,9 +11,9 @@
         <h1>Baja Blogja</h1>
         <nav>
             <ul>
-                <li><a href="/Főoldal/index.html">Kezdőlap</a></li>
+                <li><a href="index.html">Kezdőlap</a></li>
                 <li><a href="about.html">Rólunk</a></li>
-                <li><a href="/bejegyzesek/posts.html">Bejegyzések</a></li>
+                <li><a href="posts.html">Bejegyzések</a></li>
                 <li><a href="contact.html">Kapcsolat</a></li>
             </ul>
         </nav>
@@ -24,21 +24,24 @@
                 <div class="slide active">
                     <h2>Bajai Halászlé</h2>
                     <p>A Bajai Halászlé egy híres és finom étel, amit mindenkinek meg kell kóstolnia, ha Baján jár. A receptje generációkon át öröklődött, és minden családnak megvan a saját titkos összetevője, ami még különlegesebbé teszi ezt az ételt. Az évente megrendezett Halászlé Fesztivál mindig nagy látogatottságnak örvend.</p>
+                    <img src="/Képek/halaszle.jpg" alt="">
                 </div>
                 <div class="slide">
                     <h2>Duna-parti séták</h2>
                     <p>A Duna-part tökéletes hely a sétákra és a kikapcsolódásra, különösen nyári estéken. A folyó mentén számos gyönyörű hely található, ahol piknikezhetünk, vagy csak élvezhetjük a természet nyugalmát. A kerékpárutak is remek lehetőséget kínálnak a sportolásra és a felfedezésre.</p>
+                    <img src="/Képek/duna.jpg" alt="">
                 </div>
                 <div class="slide">
                     <h2>Bajai Múzeum</h2>
                     <p>A Bajai Múzeum gazdag történelmi gyűjteménnyel várja a látogatókat, bemutatva a város múltját és kulturális örökségét. Az állandó kiállítások mellett időszakos tárlatok is színesítik a programot, így mindig érdemes visszatérni.</p>
+                    <img src="/Képek/muzeum.jpg" alt="">
                 </div>
             </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Baja Blogja. Minden jog fenntartva.</p>
-    </footer>
-    <script src="script.js"></script>
+
+    <script src="/Js/script.js"></script>
 </body>
 </html>

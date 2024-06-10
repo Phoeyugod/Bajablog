@@ -11,7 +11,7 @@ body {
 header {
     background-image: url(/Képek/baja.jpg);
     color: white;
-    padding: 10rem 0;
+    padding: 9rem 0;
     text-align: center;
 }
 
@@ -59,32 +59,41 @@ article {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.slider .active {
-    display: block;
-}
-
-
-.slider .slide {
+/* Slide stílusának meghatározása */
+.slide {
     display: none;
 }
 
-
-.slide h2 {
-    color: #333;
+.active {
+    display: block;
 }
 
-.slide p {
-    color: #666;
-    margin-top: 10px;
+/* Nyilak stílusának meghatározása */
+
+/* Nyilak stílusának meghatározása */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: 100px; /* Módosított rész: a nyilak magasságának negatív margója */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider-content {
+    position: relative;
+    padding: 50px;
 }
