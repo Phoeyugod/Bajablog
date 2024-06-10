@@ -5,12 +5,13 @@ body {
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.6;
+    overflow: scroll;
 }
 
 header {
-    background-color: #333;
+    background-image: url(/Képek/baja.jpg);
     color: white;
-    padding: 2rem 0;
+    padding: 10rem 0;
     text-align: center;
 }
 
