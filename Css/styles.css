@@ -14,6 +14,7 @@ header {
     padding: 9rem 0;
     text-align: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav ul {
@@ -129,12 +130,15 @@ article {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 60px;
+    color: white;
 }
 
 div > label {
     font-size: 140%;
-    width: 100px;
+    width: 80px;
+    text-align: right;
+    color: rgb(200, 211, 47);
 }
 
 div > input {
@@ -160,11 +164,11 @@ div > textarea {
 .contact>.container-fluid {
     position: absolute;
     bottom: 0;
-    height: 9%;
+    height: 10%;
     width: 100%;
     background-color: rgb(179, 179, 179);
     text-align: center;
-    color: rgb(42, 92, 158);
+    color: rgb(82, 82, 185);
 }
 
 #pl{
@@ -177,6 +181,7 @@ div > textarea {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url(../Képek/baja_contact.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     transition: background-size 0.5s ease; /* Add transition for smooth effect */
@@ -188,4 +193,66 @@ div > textarea {
 
 .col-md-6>p{
     margin-bottom: 0px;
+    font-size: 80%;
+}
+
+.about {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.team-member {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h4 {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+#alma{
+    text-align: center;
+}
+#he{
+    text-align: center;
+}
+
+.menu-links{
+    color: rgba(219, 218, 218, 0.966);
+    text-decoration: none;
+}
+
+.menu-links:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link_act{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link_act:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
