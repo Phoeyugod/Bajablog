@@ -157,13 +157,16 @@ div > textarea {
     font-size: 25px;
 }
 
-footer>.container-fluid {
+.contact>.container-fluid {
     position: absolute;
     bottom: 0;
-    background-color: #f8f9fa;
-    padding: 10px;
+    height: 9%;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
     text-align: center;
+    color: rgb(42, 92, 158);
 }
+
 #pl{
     text-align: center;
     font-size: xx-large;
@@ -181,4 +184,8 @@ footer>.container-fluid {
 
 #contact_header{
     background-image: url();
+}
+
+.col-md-6>p{
+    margin-bottom: 0px;
 }
