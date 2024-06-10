@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url(/Képek/baja.jpg);
+    background-image: url(../Képek/baja.jpg);
     color: white;
     padding: 9rem 0;
     text-align: center;
@@ -43,6 +43,7 @@ section {
 
 h2 {
     color: #4CAF50;
+    text-align: justify;
 }
 
 .highlight {
@@ -50,7 +51,7 @@ h2 {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 
 article {
@@ -58,7 +59,7 @@ article {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 /* Slide stílusának meghatározása */
 .slide {
@@ -110,7 +111,7 @@ article {
     display: inline-block;
     max-width: 30%;
     max-height: 30%; 
-    padding: 10px;
+    padding: 8px;
     margin-left: 30px;
 }
 .slider-content p {
@@ -162,4 +163,22 @@ footer>.container-fluid {
     background-color: #f8f9fa;
     padding: 10px;
     text-align: center;
+}
+#pl{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#hatter{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../Képek/baja_contact.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-size 0.5s ease; /* Add transition for smooth effect */
+}
+
+#contact_header{
+    background-image: url();
 }
