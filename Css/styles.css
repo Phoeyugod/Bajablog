@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: lightgray;
     color: #333;
     line-height: 1.6;
     overflow: scroll;
@@ -13,6 +13,7 @@ header {
     color: white;
     padding: 9rem 0;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 nav ul {
@@ -66,6 +67,9 @@ article {
 
 .active {
     display: block;
+    width: 100%;
+    height: 100%;
+    
 }
 
 /* Nyilak stílusának meghatározása */
@@ -77,7 +81,7 @@ article {
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: 100px; /* Módosított rész: a nyilak magasságának negatív margója */
+    margin-top: -50px; /* Módosított rész: a nyilak magasságának negatív margója */
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -96,4 +100,21 @@ article {
 .slider-content {
     position: relative;
     padding: 50px;
+    background: lightgray;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+#kepek {
+    display: inline-block;
+    max-width: 30%;
+    max-height: 30%; 
+    padding: 10px;
+    margin-left: 30px;
+}
+.slider-content p {
+    font-weight: bold;
+    font-size: 14px;
+    
 }
