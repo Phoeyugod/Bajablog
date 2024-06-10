@@ -43,6 +43,7 @@ section {
 
 h2 {
     color: #4CAF50;
+    text-align: justify;
 }
 
 .highlight {
@@ -110,11 +111,15 @@ article {
     display: inline-block;
     max-width: 30%;
     max-height: 30%; 
-    padding: 10px;
+    padding: 8px;
     margin-left: 30px;
 }
 .slider-content p {
     font-weight: bold;
     font-size: 14px;
     
+}
+#pl{
+    text-align: center;
+    font-size: xx-large;
 }
