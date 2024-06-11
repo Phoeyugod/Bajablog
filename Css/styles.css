@@ -112,7 +112,7 @@ article {
     display: inline-block;
     max-width: 30%;
     max-height: 30%; 
-    padding: 8px;
+    padding: 5px;
     margin-left: 30px;
 }
 .slider-content p {
@@ -197,10 +197,10 @@ div > textarea {
 }
 
 .about {
-    background: white;
+    background: lightgray;
     padding: 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 
 .team {
@@ -235,6 +235,7 @@ div > textarea {
 }
 #he{
     text-align: center;
+    
 }
 
 .menu-links{
@@ -255,4 +256,10 @@ div > textarea {
 .link_act:hover{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+#tali{
+    color: #4CAF50;
+}
+.aa{
+    color: #4CAF50;
 }
